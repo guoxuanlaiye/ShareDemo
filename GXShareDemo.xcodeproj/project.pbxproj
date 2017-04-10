@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DEFCE1C1E1CDD2400E2C8E0 /* XAspect_ShareApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFCE1B1E1CDD2400E2C8E0 /* XAspect_ShareApplicationDelegate.m */; };
+		4DEFCE1F1E1CDFFA00E2C8E0 /* GXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFCE1E1E1CDFFA00E2C8E0 /* GXAppDelegate.m */; };
+		4DF066621E1F664E00E44ED5 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF066611E1F664E00E44ED5 /* NSDate+Category.m */; };
+		4DF0666D1E1F670900E44ED5 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF066641E1F670900E44ED5 /* UIBarButtonItem+Extension.m */; };
+		4DF0666E1E1F670900E44ED5 /* UINavigationBar+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF066661E1F670900E44ED5 /* UINavigationBar+Category.m */; };
+		4DF0666F1E1F670900E44ED5 /* UITabBar+LittleRedDotBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF066681E1F670900E44ED5 /* UITabBar+LittleRedDotBadge.m */; };
+		4DF066701E1F670900E44ED5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0666A1E1F670900E44ED5 /* UIView+Extension.m */; };
+		4DF066711E1F670900E44ED5 /* UIWindow+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0666C1E1F670900E44ED5 /* UIWindow+Extension.m */; };
 		4DFEEFD11E1CA329005FF2CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFEEFD01E1CA329005FF2CF /* main.m */; };
 		4DFEEFD41E1CA329005FF2CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFEEFD31E1CA329005FF2CF /* AppDelegate.m */; };
 		4DFEEFD71E1CA329005FF2CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFEEFD61E1CA329005FF2CF /* ViewController.m */; };
 		4DFEEFDA1E1CA329005FF2CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFEEFD81E1CA329005FF2CF /* Main.storyboard */; };
 		4DFEEFDC1E1CA329005FF2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFEEFDB1E1CA329005FF2CF /* Assets.xcassets */; };
 		4DFEEFDF1E1CA329005FF2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFEEFDD1E1CA329005FF2CF /* LaunchScreen.storyboard */; };
+		4DFEEFEA1E1CA370005FF2CF /* GXShareConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFEEFE91E1CA370005FF2CF /* GXShareConfigManager.m */; };
+		C7348430182906FDAE394335 /* Pods_GXShareDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC99B95932B8B07E4FF13B56 /* Pods_GXShareDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A04246529F09D2378F3B871 /* Pods-GXShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXShareDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GXShareDemo/Pods-GXShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4DBC25F11E1E1D600050502E /* GXMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXMacro.h; sourceTree = "<group>"; };
+		4DEFCE1A1E1CDD2400E2C8E0 /* XAspect_ShareApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAspect_ShareApplicationDelegate.h; sourceTree = "<group>"; };
+		4DEFCE1B1E1CDD2400E2C8E0 /* XAspect_ShareApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAspect_ShareApplicationDelegate.m; sourceTree = "<group>"; };
+		4DEFCE1D1E1CDFFA00E2C8E0 /* GXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXAppDelegate.h; sourceTree = "<group>"; };
+		4DEFCE1E1E1CDFFA00E2C8E0 /* GXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXAppDelegate.m; sourceTree = "<group>"; };
+		4DF066601E1F664E00E44ED5 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		4DF066611E1F664E00E44ED5 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		4DF066631E1F670900E44ED5 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		4DF066641E1F670900E44ED5 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		4DF066651E1F670900E44ED5 /* UINavigationBar+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Category.h"; sourceTree = "<group>"; };
+		4DF066661E1F670900E44ED5 /* UINavigationBar+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Category.m"; sourceTree = "<group>"; };
+		4DF066671E1F670900E44ED5 /* UITabBar+LittleRedDotBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+LittleRedDotBadge.h"; sourceTree = "<group>"; };
+		4DF066681E1F670900E44ED5 /* UITabBar+LittleRedDotBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+LittleRedDotBadge.m"; sourceTree = "<group>"; };
+		4DF066691E1F670900E44ED5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		4DF0666A1E1F670900E44ED5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		4DF0666B1E1F670900E44ED5 /* UIWindow+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Extension.h"; sourceTree = "<group>"; };
+		4DF0666C1E1F670900E44ED5 /* UIWindow+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Extension.m"; sourceTree = "<group>"; };
 		4DFEEFCC1E1CA329005FF2CF /* GXShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFEEFD01E1CA329005FF2CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DFEEFD21E1CA329005FF2CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +54,10 @@
 		4DFEEFDB1E1CA329005FF2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DFEEFDE1E1CA329005FF2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DFEEFE01E1CA329005FF2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFEEFE81E1CA370005FF2CF /* GXShareConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXShareConfigManager.h; sourceTree = "<group>"; };
+		4DFEEFE91E1CA370005FF2CF /* GXShareConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXShareConfigManager.m; sourceTree = "<group>"; };
+		D85CEAC658793724E53EB3C2 /* Pods-GXShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GXShareDemo/Pods-GXShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DC99B95932B8B07E4FF13B56 /* Pods_GXShareDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GXShareDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7348430182906FDAE394335 /* Pods_GXShareDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FB77242EE7AFAD5F303B8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC99B95932B8B07E4FF13B56 /* Pods_GXShareDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DBC25EE1E1E1CED0050502E /* GXCore */ = {
+			isa = PBXGroup;
+			children = (
+				4DF0665F1E1F661300E44ED5 /* GXCategory */,
+				4DBC25EF1E1E1D1E0050502E /* GXMacro */,
+			);
+			path = GXCore;
+			sourceTree = "<group>";
+		};
+		4DBC25EF1E1E1D1E0050502E /* GXMacro */ = {
+			isa = PBXGroup;
+			children = (
+				4DBC25F11E1E1D600050502E /* GXMacro.h */,
+			);
+			path = GXMacro;
+			sourceTree = "<group>";
+		};
+		4DF0665F1E1F661300E44ED5 /* GXCategory */ = {
+			isa = PBXGroup;
+			children = (
+				4DF066631E1F670900E44ED5 /* UIBarButtonItem+Extension.h */,
+				4DF066641E1F670900E44ED5 /* UIBarButtonItem+Extension.m */,
+				4DF066651E1F670900E44ED5 /* UINavigationBar+Category.h */,
+				4DF066661E1F670900E44ED5 /* UINavigationBar+Category.m */,
+				4DF066671E1F670900E44ED5 /* UITabBar+LittleRedDotBadge.h */,
+				4DF066681E1F670900E44ED5 /* UITabBar+LittleRedDotBadge.m */,
+				4DF066691E1F670900E44ED5 /* UIView+Extension.h */,
+				4DF0666A1E1F670900E44ED5 /* UIView+Extension.m */,
+				4DF0666B1E1F670900E44ED5 /* UIWindow+Extension.h */,
+				4DF0666C1E1F670900E44ED5 /* UIWindow+Extension.m */,
+				4DF066601E1F664E00E44ED5 /* NSDate+Category.h */,
+				4DF066611E1F664E00E44ED5 /* NSDate+Category.m */,
+			);
+			path = GXCategory;
+			sourceTree = "<group>";
+		};
 		4DFEEFC31E1CA329005FF2CF = {
 			isa = PBXGroup;
 			children = (
 				4DFEEFCE1E1CA329005FF2CF /* GXShareDemo */,
 				4DFEEFCD1E1CA329005FF2CF /* Products */,
+				CF98EBE806054584F8456471 /* Pods */,
+				0FB77242EE7AFAD5F303B8DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +137,8 @@
 		4DFEEFCE1E1CA329005FF2CF /* GXShareDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4DBC25EE1E1E1CED0050502E /* GXCore */,
+				4DFEEFE71E1CA34B005FF2CF /* GXShare */,
 				4DFEEFD21E1CA329005FF2CF /* AppDelegate.h */,
 				4DFEEFD31E1CA329005FF2CF /* AppDelegate.m */,
 				4DFEEFD51E1CA329005FF2CF /* ViewController.h */,
@@ -79,6 +160,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4DFEEFE71E1CA34B005FF2CF /* GXShare */ = {
+			isa = PBXGroup;
+			children = (
+				4DFEEFE81E1CA370005FF2CF /* GXShareConfigManager.h */,
+				4DFEEFE91E1CA370005FF2CF /* GXShareConfigManager.m */,
+				4DEFCE1A1E1CDD2400E2C8E0 /* XAspect_ShareApplicationDelegate.h */,
+				4DEFCE1B1E1CDD2400E2C8E0 /* XAspect_ShareApplicationDelegate.m */,
+				4DEFCE1D1E1CDFFA00E2C8E0 /* GXAppDelegate.h */,
+				4DEFCE1E1E1CDFFA00E2C8E0 /* GXAppDelegate.m */,
+			);
+			path = GXShare;
+			sourceTree = "<group>";
+		};
+		CF98EBE806054584F8456471 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A04246529F09D2378F3B871 /* Pods-GXShareDemo.debug.xcconfig */,
+				D85CEAC658793724E53EB3C2 /* Pods-GXShareDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DFEEFE31E1CA329005FF2CF /* Build configuration list for PBXNativeTarget "GXShareDemo" */;
 			buildPhases = (
+				043431FA4CCF13C0F6E23BE9 /* [CP] Check Pods Manifest.lock */,
 				4DFEEFC81E1CA329005FF2CF /* Sources */,
 				4DFEEFC91E1CA329005FF2CF /* Frameworks */,
 				4DFEEFCA1E1CA329005FF2CF /* Resources */,
+				6B4AE91EF61541F2E348BBB6 /* [CP] Embed Pods Frameworks */,
+				BADA0C179ACD345F27596F9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +216,7 @@
 				TargetAttributes = {
 					4DFEEFCB1E1CA329005FF2CF = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2KMA9QPRA8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,14 +252,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		043431FA4CCF13C0F6E23BE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4AE91EF61541F2E348BBB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GXShareDemo/Pods-GXShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BADA0C179ACD345F27596F9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GXShareDemo/Pods-GXShareDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DFEEFC81E1CA329005FF2CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFEEFEA1E1CA370005FF2CF /* GXShareConfigManager.m in Sources */,
+				4DF066711E1F670900E44ED5 /* UIWindow+Extension.m in Sources */,
 				4DFEEFD71E1CA329005FF2CF /* ViewController.m in Sources */,
+				4DF066701E1F670900E44ED5 /* UIView+Extension.m in Sources */,
+				4DF066621E1F664E00E44ED5 /* NSDate+Category.m in Sources */,
+				4DEFCE1C1E1CDD2400E2C8E0 /* XAspect_ShareApplicationDelegate.m in Sources */,
+				4DF0666D1E1F670900E44ED5 /* UIBarButtonItem+Extension.m in Sources */,
+				4DF0666F1E1F670900E44ED5 /* UITabBar+LittleRedDotBadge.m in Sources */,
 				4DFEEFD41E1CA329005FF2CF /* AppDelegate.m in Sources */,
+				4DF0666E1E1F670900E44ED5 /* UINavigationBar+Category.m in Sources */,
 				4DFEEFD11E1CA329005FF2CF /* main.m in Sources */,
+				4DEFCE1F1E1CDFFA00E2C8E0 /* GXAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +432,10 @@
 		};
 		4DFEEFE41E1CA329005FF2CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A04246529F09D2378F3B871 /* Pods-GXShareDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KMA9QPRA8;
 				INFOPLIST_FILE = GXShareDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Guoxuan.GXShareDemo;
@@ -279,8 +445,10 @@
 		};
 		4DFEEFE51E1CA329005FF2CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85CEAC658793724E53EB3C2 /* Pods-GXShareDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KMA9QPRA8;
 				INFOPLIST_FILE = GXShareDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Guoxuan.GXShareDemo;
@@ -307,6 +475,7 @@
 				4DFEEFE51E1CA329005FF2CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

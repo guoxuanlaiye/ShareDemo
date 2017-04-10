@@ -1,0 +1,33 @@
+PODS:
+  - UMengUShare/Core (6.2.0):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.2.0)
+  - UMengUShare/Social/QQ (6.2.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.2.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.2.0):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.2.0):
+    - UMengUShare/Core
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+
+DEPENDENCIES:
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
+  - XAspect
+
+SPEC CHECKSUMS:
+  UMengUShare: 700415220ee9df4051d27d8a31fb1286a8f3b4e6
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+
+PODFILE CHECKSUM: 3aec90d0f1d76984709dfb12b30a485040000c31
+
+COCOAPODS: 1.1.0.beta.2

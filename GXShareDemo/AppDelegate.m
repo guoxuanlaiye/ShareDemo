@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GXShareConfigManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
+    
+    
+    GXShareConfigManager * shareManager = [GXShareConfigManager sharedInstance];
+    shareManager.UMShareAppKey = @"";
+    shareManager.shareLogOpen  = YES;
+    
+    [shareManager setupPlatform:GXSharePlatformConfigType_Sina appKey:@"" appSecret:@"" appRedirectUrl:@""];
+    [shareManager setupPlatform:GXSharePlatformConfigType_Wechat appKey:@"" appSecret:@"" appRedirectUrl:@""];
+    [shareManager setupPlatform:GXSharePlatformConfigType_Tencent appKey:@"" appSecret:@"" appRedirectUrl:@""];
+    
+    
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 
